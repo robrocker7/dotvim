@@ -22,7 +22,8 @@ let g:rubycomplete_classes_in_global = 1
 " syntastic
 let g:syntastic_enable_signs=1
 
-colorscheme vividchalk
+set t_Co=256
+colorscheme desert256
 set background=dark
 
 let bash_is_sh=1
@@ -36,8 +37,8 @@ set laststatus=2
 " default:
 " set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 "set statusline=%<%f\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
-" highlihgt the file name
-hi User1 term=bold,reverse cterm=bold ctermfg=4 ctermbg=2 gui=bold guifg=Blue guibg=#44aa00
+" highlight the file name
+hi User1 term=bold,reverse ctermfg=2 ctermbg=0 guifg=Blue guibg=#44aa00
 set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
 
 "set cuc
@@ -110,6 +111,8 @@ map! <S-Insert> <MiddleMouse>
 
 " Ctrl-N to disable search match highlight
 nmap <silent> <C-N> :silent noh<CR>
+" <leader>n to disable search highlight
+nmap <silent> <leader>n :silent :nohlsearch<CR>
 
 " Ctrol-E to switch between 2 last buffers
 nmap <C-E> :b#<CR>
