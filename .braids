@@ -83,13 +83,6 @@ bundles/surround:
   type: git
   revision: ad5690f10eb08688b0772045a4795cf7df461c93
   remote: braid/bundles/surround
-bundles/scrooloose-snipmate-snippets/snippets: 
-  squashed: true
-  url: git://github.com/scrooloose/snipmate-snippets.git
-  branch: master
-  type: git
-  revision: f9f420418df3578c10833fe1a7f33adaedacf8c0
-  remote: braid/bundles/scrooloose-snipmate-snippets/snippets
 bundles/nerdtree: 
   squashed: true
   url: git://github.com/scrooloose/nerdtree.git
