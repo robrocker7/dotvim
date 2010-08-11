@@ -191,9 +191,8 @@ Check out the 'vimrc' file for more...
 
     Keep Window on Buffer Delete - Improved
 
-*   pastie ([vim.org](http://www.vim.org/scripts/script.php?script_id=1624)) ([github](http://github.com/tpope/vim-pastie))
-
-    integration with http://pastie.org
+*   gist ([vim.org](http://www.vim.org/scripts/script.php?script_id=2423))
+    integration with http://gist.github.com
 
 *   repeat ([vim.org](http://www.vim.org/scripts/script.php?script_id=2136)) ([github](http://github.com/tpope/vim-repeat))
 
