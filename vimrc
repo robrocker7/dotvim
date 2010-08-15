@@ -46,6 +46,10 @@ set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-1
 
 set number
 
+" prevent vim from adding that stupid empty line at the end of every file
+set noeol
+set binary
+
 set textwidth=0         " Do not wrap words (insert)
 set nowrap              " Do not wrap words (view)
 set showcmd             " Show (partial) command in status line.
@@ -65,14 +69,12 @@ set wildmenu
 set ruler
 set visualbell
 
+set expandtab
 set ts=4
 set sw=4
+set sts=4
 
 "fixdel
-
-" prevent vim from adding that stupid empty line at the end of every file
-set noeol
-set binary
 
 "Ignore these files when completing names and in Explorer
 set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
