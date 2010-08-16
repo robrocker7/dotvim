@@ -76,13 +76,6 @@ bundles/surround:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-surround.git
-bundles/syntastic: 
-  branch: master
-  remote: braid/bundles/syntastic
-  revision: 2926533fd71e8dd22ddc08667ab602d9f8406f63
-  squashed: true
-  type: git
-  url: git://github.com/scrooloose/syntastic.git
 bundles/unimpaired: 
   branch: master
   remote: braid/bundles/unimpaired
