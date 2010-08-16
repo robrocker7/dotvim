@@ -39,7 +39,7 @@ set laststatus=2
 "set statusline=%<%f\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
 " highlight the file name
 hi User1 term=bold,reverse ctermfg=2 ctermbg=0 guifg=Blue guibg=#44aa00
-set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%*%=%-14.(%l,%c%V%)\ %P
 
 "set cuc
 "set cul
