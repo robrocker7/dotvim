@@ -41,13 +41,6 @@ bundles/nerdtree:
   squashed: true
   type: git
   url: git://github.com/scrooloose/nerdtree.git
-bundles/pastie: 
-  branch: master
-  remote: braid/bundles/pastie
-  revision: 549355332197d8309bfe81a4cb768c30871a8440
-  squashed: true
-  type: git
-  url: git://github.com/tpope/vim-pastie.git
 bundles/repeat: 
   branch: master
   remote: braid/bundles/repeat
