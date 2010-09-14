@@ -7,13 +7,19 @@ Plugins that are available form a git repository were added with
 
 ##### Installation
 
-From your homedirectory (on Linux/Mac OSX):
+From your home directory (on Linux/Mac OSX):
 
 * `git clone git://github.com/astrails/dotvim.git`
 * `ln -sfn dotvim .vim`
 * `ln -sfn dotvim/vimrc .vimrc`
 
 Note: if you alrady have `~/.vim` `~/.vimrc` REMOVE THEM (you might want to backup them ifirst :)
+
+From your home directory on Windows (XP: C:\Documents and Settings\USERNAME, Vista/7: C:\Users\USERNAME)
+
+* Get this repository through git or a tarball.
+* Put the contents of this repository in a directory called vimfiles in your home directory.
+* Copy vimfiles/\_vimrc and vimfiles/\_gvimrc to your home directory.
 
 #### General configuration
 
