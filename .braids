@@ -1,4 +1,11 @@
 --- 
+bundles/align: 
+  branch: master
+  remote: braid/bundles/align
+  revision: fa5fdeeea25269c3e83262c03dfa1ccd27dbd3c9
+  squashed: true
+  type: git
+  url: http://github.com/tsaleh/vim-align.git
 bundles/cucumber: 
   branch: master
   remote: braid/bundles/cucumber
@@ -6,6 +13,13 @@ bundles/cucumber:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-cucumber.git
+bundles/delimitMate: 
+  branch: master
+  remote: braid/bundles/delimitMate
+  revision: 8f5a45f9e7b38bd1bcc5b901c0981ec90053a677
+  squashed: true
+  type: git
+  url: http://github.com/Raimondi/delimitMate.git
 bundles/endwise: 
   branch: master
   remote: braid/bundles/endwise

@@ -68,6 +68,8 @@ set history=1000
 set wildmenu
 set ruler
 set visualbell
+set autoread            " automatically read feil that has been changed on disk and doesn't have changes in vim
+set backspace=indent,eol,start
 
 set expandtab
 set ts=4
@@ -90,7 +92,6 @@ hi! link ShowMarksHLl LineNr
 hi! link ShowMarksHLu LineNr
 hi! link ShowMarksHLo LineNr
 hi! link ShowMarksHLm LineNr
-
 
 " Make
 :command -nargs=* Make make <args> | cwindow 3
@@ -138,6 +139,10 @@ nmap <leader>e :e **/
 " ,f to fast finding files using fuzzy finder.
 nmap <leader>f :FufFile **/<CR>
 
+nmap <leader>S :SessionList<CR>
+nmap <leader>SS :SessionSave<CR>
+nmap <leader>SA :SessionSaveAs<CR>
+
 " ,b to display current buffers list
 let g:miniBufExplVSplit = 25
 let g:miniBufExplorerMoreThanOne = 100
@@ -152,8 +157,6 @@ nmap <Leader>sh :ConqueSplit bash<cr>
 
 " ,r to open vimshell window
 nmap <Leader>r :ConqueSplit 
-
-
 
 " map ,y to show the yankring
 nmap <leader>y :YRShow<cr>
