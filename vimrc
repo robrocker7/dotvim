@@ -2,7 +2,11 @@ set nocompatible
 
 runtime! autoload/pathogen.vim
 if exists('g:loaded_pathogen')
-  call pathogen#runtime_prepend_subdirectories(expand('~/.vim/bundles'))
+  if exists('g:os') && g:os == 'win32'
+    call pathogen#runtime_prepend_subdirectories(expand('~/vimfiles/bundles'))
+  else
+    call pathogen#runtime_prepend_subdirectories(expand('~/.vim/bundles'))
+  endif
 end
 
 syntax on
